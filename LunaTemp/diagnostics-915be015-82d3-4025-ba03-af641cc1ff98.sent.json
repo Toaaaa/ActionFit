@@ -1,0 +1,238 @@
+{
+  "BuildID": "915be015-82d3-4025-ba03-af641cc1ff98",
+  "Command": "project:deploy",
+  "ProjectID": "1ea3bb43f778449c78ecaf64beaf075a",
+  "ProjectStateHash": "baef7a643f8ec314a5642da4fcf707320d0cae2311fca8ee09694dd1ccd308ee",
+  "StageCompletedAt": 3,
+  "EarliestFatalError": 3,
+  "StartTime": 1754550199771,
+  "EndTime": 1754550262401,
+  "PlaygroundUserID": 25441,
+  "OperatingSystem": "win32",
+  "UnityPackageID": null,
+  "TargetPlatform": "playground",
+  "UnityVersion": "2022.3.60f1\r",
+  "LunaVersion": "6.3.0",
+  "LogCount": 10,
+  "Logs": [
+    {
+      "LogID": "75a2b445-a966-4915-9dd3-4eb37c2da641",
+      "Order": 10,
+      "Timestamp": 1754550262634,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3008",
+      "Description": "You are only using: 1 custom events.",
+      "Details": [
+        "You are only using 1 custom events. It is recommended to use more custom events to have a better understanding of the playable."
+      ],
+      "DescriptionValues": [
+        "1"
+      ],
+      "DetailsValues": [
+        "1"
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "f029544a-2fdd-49f5-bb76-310a34c19bda",
+      "Order": 0,
+      "Timestamp": 1754550217741,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1030",
+      "Description": "TMP Font Asset uses unsupported 'Atlas Population Mode'",
+      "Details": [
+        "TMP Font Asset '{0}' uses Atlas Population Mode '{1}' which is not supported"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "LiberationSans SDF - Fallback",
+        "Dynamic"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "4194ef34-0940-4057-a968-dde6885dca24",
+      "Order": 1,
+      "Timestamp": 1754550223157,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1030",
+      "Description": "TMP Font Asset uses unsupported 'Atlas Population Mode'",
+      "Details": [
+        "TMP Font Asset '{0}' uses Atlas Population Mode '{1}' which is not supported"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "LiberationSans SDF - Fallback",
+        "Dynamic"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "c3818611-5c57-4a29-9961-7e4c955cc772",
+      "Order": 2,
+      "Timestamp": 1754550242539,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1006",
+      "Description": "Linear color space is not supported",
+      "Details": [
+        "Due to compatibility reasons, Luna is only able to use Gamma color space for rendering. Please adjust your player settings."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "3fc738fd-cd10-4377-bd8e-de1244871296",
+      "Order": 3,
+      "Timestamp": 1754550242540,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1014",
+      "Description": "We recommend running Runtime Analysis to find and remove all unused code",
+      "Details": [
+        "Navigate to the Runtime Analysis → Code tab to enable code stripping. Before uploading the playable, please make sure to have played all scenario’s of the playable in a development build to make Runtime Analysis work properly."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "283ddd83-fc72-4379-b857-12cd58b33645",
+      "Order": 4,
+      "Timestamp": 1754550242569,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1027",
+      "Description": "This DOTween version is not supported",
+      "Details": [
+        "The incorrect DOTween version for this Unity version is in use, please update or downgrade to the recommended version {0} in the package manager. Go to Window → Package Manager."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "aa7d7bbc-92e1-4b80-a03f-3714dc3f164a",
+      "Order": 5,
+      "Timestamp": 1754550242569,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1015",
+      "Description": "This TMP version is not fully supported",
+      "Details": [
+        "The incorrect Text Mesh Pro for this Unity version is in use, please update or downgrade to the recommended version {0} in the package manager. Go to Window → Package Manager"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "3cd452c0-3f7b-40c2-8d90-7bbf278d3c39",
+      "Order": 6,
+      "Timestamp": 1754550242569,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1032",
+      "Description": "Package(s) is not supported in Luna",
+      "Details": [
+        "Currently package(s) com.unity.timeline are not supported in Luna. We recommend you to remove it and workaround it's functionality."
+      ],
+      "DescriptionValues": [
+        "com.unity.timeline (1.7.6)"
+      ],
+      "DetailsValues": [
+        "com.unity.timeline"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "X:/ToraGit/Playable_Subject/Packages\\manifest.json",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "d8c3cb85-ecf7-4463-926b-a6abec0e342f",
+      "Order": 7,
+      "Timestamp": 1754550242570,
+      "Stage": 1,
+      "ErrorType": 3,
+      "ErrorCode": "LP1002",
+      "Description": "Repeat wrap mode used on a texture with non power-of-two dimensions, this might not be rendered correctly.",
+      "Details": [
+        "LiberationSans SDF Atlas",
+        "LiberationSans SDF Atlas"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 2,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "8abb6e93-3358-4a85-8ab3-1c5d1dd6690b",
+      "Order": 8,
+      "Timestamp": 1754550262401,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "LP3016",
+      "Description": "Msbuild failed when processing the file 'X:\\ToraGit\\Playable_Subject\\6.3.0\\pipeline\\templates\\LunaCompiler\\Scripts\\Scripts.csproj' with message: X:\\ToraGit\\Playable_Subject\\6.3.0\\tools\\msbuild-mono-custom\\Microsoft.Common.CurrentVersion.targets: (1232, 5): The reference assemblies for .NETFramework,Version=v4.7 were not found. To resolve this, install the Developer Pack (SDK/Targeting Pack) for this framework version or retarget your application. You can download .NET Framework Developer Packs at https://aka.ms/msbuild/developerpacks",
+      "Details": null,
+      "DescriptionValues": [
+        "Msbuild failed when processing the file 'X:\\ToraGit\\Playable_Subject\\6.3.0\\pipeline\\templates\\LunaCompiler\\Scripts\\Scripts.csproj' with message: X:\\ToraGit\\Playable_Subject\\6.3.0\\tools\\msbuild-mono-custom\\Microsoft.Common.CurrentVersion.targets: (1232, 5): The reference assemblies for .NETFramework,Version=v4.7 were not found. To resolve this, install the Developer Pack (SDK/Targeting Pack) for this framework version or retarget your application. You can download .NET Framework Developer Packs at https://aka.ms/msbuild/developerpacks"
+      ],
+      "DetailsValues": null,
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 1
+    }
+  ]
+}
